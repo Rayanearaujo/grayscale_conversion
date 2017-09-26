@@ -13,7 +13,7 @@ public class ConversionController extends ImageProcessingPanelController{
     
     @Override
     public void panelController() {
-    	//this.conversionPanel = new ConversionPanel();
+    	this.conversionPanel = new ConversionPanel();
         this.conversionModel = new ConversionModel();
         this.conversionModel.converion();
 //        this.conversionPanel.getBtnBinarization().addActionListener(new PartionatedOtsuButtonBinarizationListener(this.partionatedOtsuModel));

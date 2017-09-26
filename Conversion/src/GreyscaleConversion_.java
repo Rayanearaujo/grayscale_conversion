@@ -15,7 +15,7 @@ public class GreyscaleConversion_ implements PlugIn {
 	public void createAndShowGui() {		
 		MainGui mainGui = new MainGui();
 		new MainController(mainGui);
-		mainGui.setVisible(true);
+		mainGui.setVisible(false);
 	}
 	
 	public void run(String arg) {		
